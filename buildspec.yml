@@ -11,4 +11,3 @@ phases:
   build:
     commands:
       - docker images
-      - docker run helloworld echo "Hello, World!" 
