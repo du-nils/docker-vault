@@ -9,4 +9,4 @@ phases:
     commands:
       - echo Build docker image
       - cd 0.X
-      - docker build -t docker-image
+      - docker build -t docker-image .
