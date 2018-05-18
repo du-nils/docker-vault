@@ -8,3 +8,5 @@ phases:
   build:
     commands:
       - echo Build docker image
+      - cd 0.X
+      - docker build -t docker-image
