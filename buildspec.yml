@@ -8,5 +8,4 @@ phases:
   build:
     commands:
       - echo Build docker image
-      - nohup /usr/local/bin/dockerd --host=unix:///var/run/docker.sock --host=tcp://0.0.0.0:2375 --storage-driver=overlay&
-      - cd 0.X && docker build -t docker-image .
+      - nohup /usr/local/bin/dockerd --host=unix:///var/run/docker.sock --host=tcp://0.0.0.0:2375 --storage-driver=overlay& && cd 0.X && docker build -t docker-image .
